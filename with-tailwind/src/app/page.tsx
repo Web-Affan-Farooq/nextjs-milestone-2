@@ -6,8 +6,8 @@ import Section_2 from '../../components/Section-2/Section-2';
 const Home = () => {
   return (
     <div>
-      {/* <Section_1 /> */}
-      {/* <Section_2 /> */}
+      <Section_1 />
+      <Section_2 />
       <br />
       <br />
     </div>
