@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    padding: 1.5rem;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    line-height: 2.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+footer > .copy {
+    color: #9ca3af;
+}
+@media (min-width:786px) {
+    footer {
+        flex-direction: row;
+    }
+}
